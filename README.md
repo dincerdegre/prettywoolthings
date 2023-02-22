@@ -3,7 +3,7 @@
 A simple React frontend for Pretty Wool Things.
 It serves as a shop front linking products to their respective Shopier pages.
 
-Click For Preview : ![prettywoolthings](https://www.dincerdegre.com/images/portfolio/prettywoolthings.png)
+Click For Preview : [prettywoolthings](https://www.dincerdegre.com/images/portfolio/prettywoolthings.png)
 
 ## Extra Packages
 
