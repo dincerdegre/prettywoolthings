@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Pretty Wool Things Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React frontend for Pretty Wool Things.
+It serves as a shop front linking products to their respective Shopier pages. 
+
+## Extra Packages
+
+### react-router
+React router for Routing
+
+### sass
+for scss implementation
+
+### mui
+for icons
 
 ## Available Scripts
 
