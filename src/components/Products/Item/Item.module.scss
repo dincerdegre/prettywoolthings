@@ -1,0 +1,84 @@
+.cardItem {
+  width: 290px;
+  margin: 20px 12px;
+  display: flex;
+  flex-direction: column;
+  .imageContainer {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    a {
+      img {
+        max-width: 290px;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+      }
+      &:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -moz-transform: scale(1.1);
+      }
+    }
+  }
+  .infoContainer {
+    padding: 10px;
+    h3 a {
+      color: #333;
+      margin: 0 0 14px 0;
+      font-weight: 400;
+      min-height: 50px;
+      text-decoration: none;
+      display: block;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:visited {
+        color:#333;
+      }
+    }
+    .priceTab {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #b7383c;
+        span {
+          font-size: 1rem;
+          padding-left: 2px;
+        }
+      }
+      a {
+        background-color: #fff;
+        border:2px solid #b7383c;
+        margin: 0;
+        border-radius: 0.2rem;
+        color: #b7383c;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 8px 10px;
+        text-align: center;
+        display:block;
+        &:hover {
+          background-color: #b7383c;
+          color:#fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+/*
+Version: 2022
+Author: Dincer Degre
+Author URI: https://www.dincerdegre.com
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'FontRegular';
+    src: local('FontRegular'), url(../assets/fonts/Montserrat-Regular.ttf) format('truetype');
+  }
+  body {
+    margin: 0;
+    font-family: 'FontRegular', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 auto;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+    background-color: #FDFBF8;
+  }
+  
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  header {
+    height: 60px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(155,155,155,0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+  }
+  
+  main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    margin-top: 3rem;
+    border-top: 2px solid #f2f2f2;
+    background-color: #fdfdfd;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  .row {
+    margin: 0 auto;
+    padding: 0;
+    width: 1260px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .typed-cursor {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #219bf3;
+  }
+  
+  @media only screen and (max-width: 1279px) and (min-width: 1140px) {
+    .row {
+      width: 1140px;
+    }
+  }
+  @media only screen and (max-width: 1139px) and (min-width: 1024px) {
+    .row {
+      width: 1024px;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    .row {
+      width: 100%;
+    }
+  }

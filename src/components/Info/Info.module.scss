@@ -1,0 +1,28 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin:4rem auto;
+    max-height: 100px;
+    padding:20px 0;
+    border-top:2px solid #b7383c;
+    border-bottom:2px solid #b7383c; 
+    .item {
+        flex:1;
+        display: flex;
+        justify-content: center;
+        .icon {
+            color:#b7383c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 5px;
+        }
+        .desc {
+            margin: auto 0;
+            h3 {color:#b7383c;text-transform: uppercase;margin:0;padding:0;}
+            p {margin:0;padding:0;color:#606060;font-size:0.9rem;}
+        }
+    }
+}

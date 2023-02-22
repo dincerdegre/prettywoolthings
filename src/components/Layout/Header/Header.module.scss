@@ -1,0 +1,43 @@
+.headerContainer {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+  .logo {
+    z-index: 999;
+    a {
+      text-decoration: none;
+      img {
+        height: 58px;
+        width: auto;
+        padding: 1px 0;
+      }
+    }
+  }
+  .nav {
+    margin:0;
+    padding:0;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        height: 60px;
+        a {
+            color:#b7383c;
+            text-decoration: none;
+            font-weight: 500;
+            padding:0 10px;
+            display: block;
+            height:60px;
+            line-height: 60px;
+            text-transform: uppercase;
+            &:hover {
+                background-color: #FBF6F0;
+            }
+        }
+      }
+    }
+  }
+}

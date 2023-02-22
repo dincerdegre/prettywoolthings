@@ -1,0 +1,54 @@
+.categories {
+  display: flex;
+  height: 500px;
+  margin-top:65px;
+  gap: 5px;
+  overflow: hidden;
+  .col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    .row {
+      flex: 1;
+      gap: 5px;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      &:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -moz-transform: scale(1.1);
+      }
+      img {
+        width: 110%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+      }
+      .catName {
+        position:absolute;
+        min-width: 100px;
+        width:fit-content;
+        background-color:rgba($color: #333, $alpha: 0.6);
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing:0;
+        color:rgba($color: #fff, $alpha: 0.9);
+        font-weight: 400;
+        text-transform: uppercase;
+        height:min-content;
+        padding:6px;
+        bottom:0;
+        left:0;
+        margin:auto;
+        border:none;
+        z-index:10;
+      }
+    }
+  }
+}
