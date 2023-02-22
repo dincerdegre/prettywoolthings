@@ -97,7 +97,7 @@ const Footer = () => {
             </span>{" "}
             <span className={styles.copyright}>
               {" "}
-              © Copyright 2023. All Rights Reserved
+              © Copyright 2023. All Rights Reserved. Tasarım: <a href="https://www.dincerdegre.com" target="_blank" rel="noopener noreferrer">dincerdegre</a> 
             </span>
           </div>
           <div className={styles.right}>
