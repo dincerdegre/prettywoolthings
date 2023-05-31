@@ -1,0 +1,23 @@
+.button {
+    position: relative;
+    height: 58px;
+    padding:2px 10px 0;
+    background-color: fff;
+    display: block;
+    cursor: pointer;
+    z-index: 999;
+    &:hover .burgerLine {
+        background-color: #b7383cc4;
+    }
+.burgerLine {
+  width: 40px;
+  height: 5px;
+  margin: 10px 0;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #b7383c;
+  transition: transform 0.2s;
+}
+}
+
+
