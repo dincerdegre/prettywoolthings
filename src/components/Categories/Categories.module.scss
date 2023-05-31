@@ -1,7 +1,7 @@
 .categories {
   display: flex;
   height: 500px;
-  margin-top:65px;
+  margin-top: 65px;
   gap: 5px;
   overflow: hidden;
   .col {
@@ -31,24 +31,46 @@
         -webkit-transition: all 0.5s ease 0s;
       }
       .catName {
-        position:absolute;
+        position: absolute;
         min-width: 100px;
-        width:fit-content;
-        background-color:rgba($color: #333, $alpha: 0.6);
+        width: fit-content;
+        background-color: rgba($color: #333, $alpha: 0.6);
         font-size: 32px;
         line-height: 32px;
-        letter-spacing:0;
-        color:rgba($color: #fff, $alpha: 0.9);
+        letter-spacing: 0;
+        color: rgba($color: #fff, $alpha: 0.9);
         font-weight: 400;
         text-transform: uppercase;
-        height:min-content;
-        padding:6px;
-        bottom:0;
-        left:0;
-        margin:auto;
-        border:none;
-        z-index:10;
+        height: min-content;
+        padding: 6px;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        border: none;
+        z-index: 10;
       }
+    }
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 480px) {
+  .categories {
+    flex-direction: column;
+    height: auto;
+    .col {
+      flex-direction: row;
+      flex:initial;
+      height:250px;
+    }
+  }
+}
+@media only screen and (max-width: 479px) {
+  .categories {
+    flex-direction: column;
+    height: auto;
+    .col {
+      flex-direction: row;
+      flex:initial;
+      height:200px;
     }
   }
 }

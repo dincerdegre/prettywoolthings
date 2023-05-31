@@ -26,3 +26,32 @@
         }
     }
 }
+@media only screen and (max-width: 1023px) and (min-width: 480px) {
+    .info {
+        flex-wrap: wrap;
+        max-height: none;
+        .item {
+            flex: 0 0 50%;
+            padding:20px 0 10px;
+        }
+        .item:first-child, .item:nth-child(2) {
+            padding:0 0 10px 0;
+        }
+    }
+  }
+  @media only screen and (max-width: 479px) {
+    .info {
+        flex-wrap: wrap;
+        max-height: none;
+        .item {
+            flex: 0 0 100%;
+            padding:20px 0 20px;
+        }
+        .item:first-child {
+            padding:0 0 10px 0;
+        }
+        .item:nth-child(4) {
+            padding: 10px 0 0 0;
+        }
+    }
+  }
