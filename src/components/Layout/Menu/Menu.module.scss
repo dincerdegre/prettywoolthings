@@ -1,0 +1,38 @@
+.menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 998;
+  display: none;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    li {
+      display: block;
+      margin-bottom:1rem;
+      a {
+        color: #b7383c;
+        text-decoration: none;
+        font-weight: 500;
+        font-size:1.6rem;
+        line-height: 1.7rem;
+        &:hover {
+          color: #b7383cc4;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.open {
+  display: flex;
+}
